@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3984915550422728372}
   - component: {fileID: 6711731035551870450}
   - component: {fileID: 5125924665315231510}
+  - component: {fileID: 2813897604663994814}
+  - component: {fileID: 1057860847348471656}
   m_Layer: 0
   m_Name: Lever2
   m_TagString: Untagged
@@ -81,6 +83,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &2813897604663994814
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50856692544678918}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 78
+  m_CollisionDetection: 0
+--- !u!65 &1057860847348471656
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50856692544678918}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04687335, y: 0.033550374, z: 0.018628858}
+  m_Center: {x: 0.00017521501, y: 0.042108156, z: 0}
 --- !u!1 &5862197067932553717
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +123,8 @@ GameObject:
   - component: {fileID: 565141518506805496}
   - component: {fileID: 7119120856068454694}
   - component: {fileID: 6792294067193026924}
+  - component: {fileID: 5275445138929709575}
+  - component: {fileID: 6202405101804257757}
   m_Layer: 0
   m_Name: Lever1
   m_TagString: Untagged
@@ -162,6 +195,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &5275445138929709575
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5862197067932553717}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 110
+  m_CollisionDetection: 0
+--- !u!65 &6202405101804257757
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5862197067932553717}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04687335, y: 0.036318935, z: 0.018628858}
+  m_Center: {x: 0.00017521501, y: 0.04072389, z: 0}
 --- !u!1 &6574129952395531753
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,6 +271,8 @@ GameObject:
   - component: {fileID: 7671140889096869153}
   - component: {fileID: 1875016487670986117}
   - component: {fileID: 3896529811175511830}
+  - component: {fileID: 5147142442521486909}
+  - component: {fileID: 5520140708500366636}
   m_Layer: 0
   m_Name: Lever3
   m_TagString: Untagged
@@ -279,6 +343,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &5147142442521486909
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7109627060316833709}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 110
+  m_CollisionDetection: 0
+--- !u!65 &5520140708500366636
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7109627060316833709}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04687335, y: 0.030793333, z: 0.018628858}
+  m_Center: {x: 0.00017518457, y: 0.043486673, z: 0}
 --- !u!1 &8253624967600527322
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,6 +383,8 @@ GameObject:
   - component: {fileID: 8618193366094616979}
   - component: {fileID: 751962407682443455}
   - component: {fileID: 726268689380386707}
+  - component: {fileID: 2998848440067222228}
+  - component: {fileID: 1123479153132874185}
   m_Layer: 0
   m_Name: Lever4
   m_TagString: Untagged
@@ -360,6 +455,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &2998848440067222228
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8253624967600527322}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 110
+  m_CollisionDetection: 0
+--- !u!65 &1123479153132874185
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8253624967600527322}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04687335, y: 0.028069232, z: 0.018628858}
+  m_Center: {x: 0.00017521501, y: 0.04484873, z: 0}
 --- !u!1 &8524023287767865534
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,6 +495,8 @@ GameObject:
   - component: {fileID: 4347900417043019552}
   - component: {fileID: 3801604952646792065}
   - component: {fileID: 7126964762746451409}
+  - component: {fileID: 2247431676162015759}
+  - component: {fileID: 3066316708495912067}
   m_Layer: 0
   m_Name: Lever5
   m_TagString: Untagged
@@ -441,6 +567,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &2247431676162015759
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8524023287767865534}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 110
+  m_CollisionDetection: 0
+--- !u!65 &3066316708495912067
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8524023287767865534}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04687335, y: 0.03250632, z: 0.018628858}
+  m_Center: {x: 0.00017521501, y: 0.042630184, z: 0}
 --- !u!1 &8818985028226586153
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,6 +607,9 @@ GameObject:
   - component: {fileID: 400128326761923146}
   - component: {fileID: 7525812010642604248}
   - component: {fileID: 4570673386098991940}
+  - component: {fileID: 3725636516557917236}
+  - component: {fileID: 5136078093645550458}
+  - component: {fileID: 4855558008808802887}
   m_Layer: 0
   m_Name: LeverBase
   m_TagString: Untagged
@@ -522,3 +680,45 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &3725636516557917236
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8818985028226586153}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!65 &5136078093645550458
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8818985028226586153}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2995465, y: 0.040000003, z: 0.010182084}
+  m_Center: {x: 0, y: 0.0000000016020684, z: 0.044908974}
+--- !u!65 &4855558008808802887
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8818985028226586153}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2995465, y: 0.040000003, z: 0.007856736}
+  m_Center: {x: 0, y: 0.0000000016020684, z: -0.046071634}
