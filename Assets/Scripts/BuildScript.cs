@@ -6,6 +6,8 @@ public class BuildScript : MonoBehaviour
 {
     AudioSource audioSource;
     private float hasJoint = 0;
+    public Transform from;
+    public Transform to;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +30,8 @@ public class BuildScript : MonoBehaviour
 
                 if(hasJoint == 2){
                     audioSource.Play();
+                    collision.gameObject.transform.rotation = Quaternion.Slerp(from.rotation, to.rotation, 0.0f);
+
                 }
             }
             if(gameObject.name == "Collision2" && (collision.collider.name == "Connector" || collision.collider.name == "polySurface2")){
@@ -56,6 +60,9 @@ public class BuildScript : MonoBehaviour
 
                 if(hasJoint == 2){
                     audioSource.Play();
+                    Rigidbody colRigid = collision.gameObject.GetComponent<Rigidbody>();
+                    colRigid.constraints = RigidbodyConstraints.FreezePosition;
+
                 }
             }
         }
