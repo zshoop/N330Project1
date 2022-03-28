@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 6899832578692796517}
   - component: {fileID: 828118334}
   - component: {fileID: 828118335}
+  - component: {fileID: 1255377716513601456}
   m_Layer: 7
-  m_Name: polySurface1
+  m_Name: polySurface3
   m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +33,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7155419866662331653}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6515361415733433647
 MeshFilter:
@@ -113,6 +114,25 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6329158148709259305, guid: 63666459e2747ff4f99ad3081c6237bd, type: 3}
+--- !u!95 &1255377716513601456
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101517355932095706}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1346842812708293881
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,8 +146,9 @@ GameObject:
   - component: {fileID: 6868254174766447443}
   - component: {fileID: 215426219}
   - component: {fileID: 215426220}
+  - component: {fileID: 2991136363001549891}
   m_Layer: 7
-  m_Name: polySurface3
+  m_Name: polySurface4
   m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -145,7 +166,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7155419866662331653}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1266036677728643483
 MeshFilter:
@@ -226,6 +247,25 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4164511204261677510, guid: 63666459e2747ff4f99ad3081c6237bd, type: 3}
+--- !u!95 &2991136363001549891
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346842812708293881}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2241521757813392243
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,8 +367,9 @@ GameObject:
   - component: {fileID: 2715233755356322654}
   - component: {fileID: 994182330}
   - component: {fileID: 994182331}
+  - component: {fileID: 7412209429518596196}
   m_Layer: 7
-  m_Name: polySurface4
+  m_Name: polySurface1
   m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -346,7 +387,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7155419866662331653}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7670876761382542713
 MeshFilter:
@@ -427,6 +468,25 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2381890483179193753, guid: 63666459e2747ff4f99ad3081c6237bd, type: 3}
+--- !u!95 &7412209429518596196
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6128822873861249883}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6311365108407553721
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,10 +544,10 @@ Transform:
   m_LocalPosition: {x: 0.11935, y: 0.45, z: 0.24724}
   m_LocalScale: {x: 1.725, y: 1.725, z: 1.725}
   m_Children:
-  - {fileID: 3063750349512642306}
-  - {fileID: 4021563699331421639}
-  - {fileID: 6922696642321040473}
   - {fileID: 1741082352353070725}
+  - {fileID: 4021563699331421639}
+  - {fileID: 3063750349512642306}
+  - {fileID: 6922696642321040473}
   - {fileID: 5006564549621734399}
   - {fileID: 5655758007241054932}
   - {fileID: 7697789839361959157}
@@ -553,6 +613,7 @@ GameObject:
   - component: {fileID: 6444180665863378035}
   - component: {fileID: 1741871118}
   - component: {fileID: 1741871119}
+  - component: {fileID: 5351423083998764306}
   m_Layer: 7
   m_Name: polySurface2
   m_TagString: Piece
@@ -653,6 +714,25 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5597002278806442958, guid: 63666459e2747ff4f99ad3081c6237bd, type: 3}
+--- !u!95 &5351423083998764306
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8689387084815817618}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8782117384121194217
 GameObject:
   m_ObjectHideFlags: 0
