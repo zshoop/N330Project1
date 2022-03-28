@@ -5,8 +5,12 @@ using UnityEngine;
 public class SnapScript : MonoBehaviour
 {
 
-    Animator m_Animator = null;
+    public GameObject gm;
+
     AudioSource audioSource;
+
+    private int score = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,10 +32,8 @@ public class SnapScript : MonoBehaviour
             collision.gameObject.transform.position = new Vector3(0.0193f, 0.4f, -0.0554f);
             collision.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
-            m_Animator = collision.gameObject.GetComponent<Animator>();
-
-            m_Animator.SetTrigger("Collision");
             audioSource.Play();
+            score = score + 1;
         }
         if(gameObject.name == "placement2" && collision.gameObject.name == "polySurface2"){
             collision.gameObject.GetComponent<Rigidbody>().useGravity = false;
@@ -40,10 +42,8 @@ public class SnapScript : MonoBehaviour
             collision.gameObject.transform.position = new Vector3(0.0215f, 0.4f, -0.0507f);
             collision.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
-            m_Animator = collision.gameObject.GetComponent<Animator>();
-
-            m_Animator.SetTrigger("Collision");
             audioSource.Play();
+            score = score + 1;
         }
         if(gameObject.name == "placement3" && collision.gameObject.name == "polySurface3"){
             collision.gameObject.GetComponent<Rigidbody>().useGravity = false;
@@ -52,10 +52,8 @@ public class SnapScript : MonoBehaviour
             collision.gameObject.transform.position = new Vector3(0.0176f, 0.4f, -0.0506f);
             collision.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
-            m_Animator = collision.gameObject.GetComponent<Animator>();
-
-            m_Animator.SetTrigger("Collision");
             audioSource.Play();
+            score = score + 1;
         }
         if(gameObject.name == "placement4" && collision.gameObject.name == "polySurface4"){
             collision.gameObject.GetComponent<Rigidbody>().useGravity = false;
@@ -64,11 +62,8 @@ public class SnapScript : MonoBehaviour
             collision.gameObject.transform.position = new Vector3(0.0144f, 0.4f, -0.0516f);
             collision.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
-
-            m_Animator = collision.gameObject.GetComponent<Animator>();
-
-            m_Animator.SetTrigger("Collision");
             audioSource.Play();
+            score = score + 1;
         }
 
         if(gameObject.name == "placement5" && collision.gameObject.name == "Phone_bottom"){
@@ -79,6 +74,7 @@ public class SnapScript : MonoBehaviour
             collision.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
             audioSource.Play();
+            score = score + 1;
         }
         if(gameObject.name == "placement5" && collision.gameObject.name == "Phone_middle"){
             collision.gameObject.GetComponent<Rigidbody>().useGravity = false;
@@ -88,6 +84,7 @@ public class SnapScript : MonoBehaviour
             collision.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
             audioSource.Play();
+            score = score + 1;
         }
         if(gameObject.name == "placement5" && collision.gameObject.name == "Phone_battery"){
             collision.gameObject.GetComponent<Rigidbody>().useGravity = false;
@@ -97,6 +94,7 @@ public class SnapScript : MonoBehaviour
             collision.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
             audioSource.Play();
+            score = score + 1;
         }
         if(gameObject.name == "placement5" && collision.gameObject.name == "Phone_top"){
             collision.gameObject.GetComponent<Rigidbody>().useGravity = false;
@@ -106,6 +104,7 @@ public class SnapScript : MonoBehaviour
             collision.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
             audioSource.Play();
+            score = score + 1;
         }
 
         if(gameObject.name == "placement6" && collision.gameObject.name == "chair_legs1"){
@@ -116,6 +115,7 @@ public class SnapScript : MonoBehaviour
             collision.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
             audioSource.Play();
+            score = score + 1;
         }
 
         if(gameObject.name == "placement7" && collision.gameObject.name == "chair_legs2"){
@@ -126,6 +126,7 @@ public class SnapScript : MonoBehaviour
             collision.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
             audioSource.Play();
+            score = score + 1;
         }
 
         if(gameObject.name == "placement8" && collision.gameObject.name == "chair_crossbeam"){
@@ -136,6 +137,7 @@ public class SnapScript : MonoBehaviour
             collision.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
             audioSource.Play();
+            score = score + 1;
         }
 
         if(gameObject.name == "placement9" && collision.gameObject.name == "chair_seat"){
@@ -146,6 +148,7 @@ public class SnapScript : MonoBehaviour
             collision.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
             audioSource.Play();
+            score = score + 1;
         }
 
         if(gameObject.name == "placement10" && collision.gameObject.name == "chair_back"){
@@ -156,6 +159,7 @@ public class SnapScript : MonoBehaviour
             collision.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
             audioSource.Play();
+            score = score + 1;
         }
     }
 }

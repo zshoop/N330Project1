@@ -37,7 +37,7 @@ public class MovementScript : MonoBehaviour
             PlayerBody.AddForce(Vector3.up * Jumpforce, ForceMode.Impulse);
         }
 
-        if(Input.GetKeyDown(KeyCode.Tab)){
+        if(Input.GetKeyDown(KeyCode.LeftShift)){
             Jumpforce = -3;
             PlayerBody.AddForce(Vector3.up * Jumpforce, ForceMode.Impulse);
         }

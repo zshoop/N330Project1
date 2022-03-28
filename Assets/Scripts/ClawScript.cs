@@ -25,7 +25,7 @@ public class ClawScript : MonoBehaviour
     void Update()
     {
         //open the claw
-        if(Input.GetKey(KeyCode.RightShift)){
+        if(Input.GetKey(KeyCode.Mouse0)){
             m_Animator.ResetTrigger("Close");
             m_Animator.SetTrigger("Open");
             open = true;
@@ -34,7 +34,7 @@ public class ClawScript : MonoBehaviour
         }
 
         //close the claw
-        if(Input.GetKey(KeyCode.LeftShift)){
+        if(Input.GetKey(KeyCode.Mouse1)){
             m_Animator.ResetTrigger("Open");
             m_Animator.SetTrigger("Close");
             open = false;
