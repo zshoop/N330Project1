@@ -927,11 +927,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 6ce5771815230b44385950608b58d253, type: 3}
   m_PrefabInstance: {fileID: 341309956}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &342961857 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4539903593224062325, guid: 02b54f33ddc600c4baed6e83bda38b64, type: 3}
-  m_PrefabInstance: {fileID: 3729998801447517833}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &364627917
 GameObject:
   m_ObjectHideFlags: 0
@@ -965,36 +960,6 @@ Transform:
   - {fileID: 765383327}
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &380869854
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 380869855}
-  m_Layer: 0
-  m_Name: GrabDest
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &380869855
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 380869854}
-  m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
-  m_LocalPosition: {x: -0.0001, y: 0.0124, z: 0.0023}
-  m_LocalScale: {x: 0.033798553, y: 0.033798553, z: 0.033798553}
-  m_Children: []
-  m_Father: {fileID: 342961857}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &409409027
 GameObject:
@@ -2175,6 +2140,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 49ddef57dd87da2489028c9f6666f2fc, type: 3}
   m_PrefabInstance: {fileID: 873018087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &874895459 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4862024407323784936, guid: 02b54f33ddc600c4baed6e83bda38b64, type: 3}
+  m_PrefabInstance: {fileID: 3729998801447517833}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &889068886
 GameObject:
@@ -4236,6 +4206,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Piece
       objectReference: {fileID: 0}
+    - target: {fileID: 3063750349512642306, guid: d95f6ca2c119dd042a6093366fd78407, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.055
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021563699331421639, guid: d95f6ca2c119dd042a6093366fd78407, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021563699331421639, guid: d95f6ca2c119dd042a6093366fd78407, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.061
+      objectReference: {fileID: 0}
     - target: {fileID: 6128822873861249883, guid: d95f6ca2c119dd042a6093366fd78407, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -4316,7 +4298,7 @@ PrefabInstance:
     - target: {fileID: 2542564, guid: 02b54f33ddc600c4baed6e83bda38b64, type: 3}
       propertyPath: dest
       value: 
-      objectReference: {fileID: 380869855}
+      objectReference: {fileID: 874895459}
     - target: {fileID: 2542564, guid: 02b54f33ddc600c4baed6e83bda38b64, type: 3}
       propertyPath: leftClaw
       value: 
@@ -4344,7 +4326,7 @@ PrefabInstance:
     - target: {fileID: 1088168775, guid: 02b54f33ddc600c4baed6e83bda38b64, type: 3}
       propertyPath: dest
       value: 
-      objectReference: {fileID: 380869855}
+      objectReference: {fileID: 874895459}
     - target: {fileID: 1088168775, guid: 02b54f33ddc600c4baed6e83bda38b64, type: 3}
       propertyPath: leftClaw
       value: 
@@ -4416,6 +4398,10 @@ PrefabInstance:
     - target: {fileID: 4540464002844319297, guid: 02b54f33ddc600c4baed6e83bda38b64, type: 3}
       propertyPath: m_Name
       value: RobotArm
+      objectReference: {fileID: 0}
+    - target: {fileID: 4862024407323784936, guid: 02b54f33ddc600c4baed6e83bda38b64, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5218398679382511038, guid: 02b54f33ddc600c4baed6e83bda38b64, type: 3}
       propertyPath: m_Layer
